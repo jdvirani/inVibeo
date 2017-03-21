@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0786C21E8141E300193BA2 /* JDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E0786C11E8141E300193BA2 /* JDViewController.swift */; };
 		6E719E7F1DAFA289008BB233 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E719E7E1DAFA289008BB233 /* GoogleService-Info.plist */; };
 		C08270C71B4D63A800E343D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08270C61B4D63A800E343D4 /* AppDelegate.swift */; };
 		C08270C91B4D63A800E343D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08270C81B4D63A800E343D4 /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E0786C11E8141E300193BA2 /* JDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JDViewController.swift; sourceTree = "<group>"; };
 		6E719E7E1DAFA289008BB233 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C08270C11B4D63A800E343D4 /* GSignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C08270C51B4D63A800E343D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			children = (
 				C08270C61B4D63A800E343D4 /* AppDelegate.swift */,
 				C08270C81B4D63A800E343D4 /* ViewController.swift */,
+				6E0786C11E8141E300193BA2 /* JDViewController.swift */,
 				C08270E61B4D641D00E343D4 /* ContentViewController.swift */,
 				C08270CA1B4D63A800E343D4 /* Main.storyboard */,
 				C08270E81B4D65CE00E343D4 /* GSignIn-Bridging-Header.h */,
@@ -245,6 +248,7 @@
 			files = (
 				C08270C91B4D63A800E343D4 /* ViewController.swift in Sources */,
 				C08270E71B4D641D00E343D4 /* ContentViewController.swift in Sources */,
+				6E0786C21E8141E300193BA2 /* JDViewController.swift in Sources */,
 				C08270C71B4D63A800E343D4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
