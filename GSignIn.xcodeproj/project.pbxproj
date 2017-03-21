@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E719E7F1DAFA289008BB233 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6E719E7E1DAFA289008BB233 /* GoogleService-Info.plist */; };
 		C08270C71B4D63A800E343D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08270C61B4D63A800E343D4 /* AppDelegate.swift */; };
 		C08270C91B4D63A800E343D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08270C81B4D63A800E343D4 /* ViewController.swift */; };
 		C08270CC1B4D63A800E343D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C08270CA1B4D63A800E343D4 /* Main.storyboard */; };
 		C08270CE1B4D63A800E343D4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C08270CD1B4D63A800E343D4 /* Images.xcassets */; };
 		C08270D11B4D63A800E343D4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C08270CF1B4D63A800E343D4 /* LaunchScreen.xib */; };
 		C08270DD1B4D63A800E343D4 /* GSignInTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08270DC1B4D63A800E343D4 /* GSignInTests.swift */; };
+		C08270E71B4D641D00E343D4 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08270E61B4D641D00E343D4 /* ContentViewController.swift */; };
+		C08270EC1B4D69FF00E343D4 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08270EB1B4D69FF00E343D4 /* GoogleSignIn.framework */; };
+		C08270EE1B4D6A1800E343D4 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C08270ED1B4D6A1800E343D4 /* GoogleSignIn.bundle */; };
+		C08270F01B4D6A7600E343D4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08270EF1B4D6A7600E343D4 /* SystemConfiguration.framework */; };
+		C08270F21B4D6A7E00E343D4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08270F11B4D6A7E00E343D4 /* StoreKit.framework */; };
+		C08270F41B4D6A8600E343D4 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C08270F31B4D6A8600E343D4 /* AddressBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E719E7E1DAFA289008BB233 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C08270C11B4D63A800E343D4 /* GSignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C08270C51B4D63A800E343D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C08270C61B4D63A800E343D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +44,13 @@
 		C08270D61B4D63A800E343D4 /* GSignInTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSignInTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C08270DB1B4D63A800E343D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C08270DC1B4D63A800E343D4 /* GSignInTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSignInTests.swift; sourceTree = "<group>"; };
+		C08270E61B4D641D00E343D4 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		C08270E81B4D65CE00E343D4 /* GSignIn-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GSignIn-Bridging-Header.h"; sourceTree = "<group>"; };
+		C08270EB1B4D69FF00E343D4 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSignIn.framework; path = GSignIn/GoogleSignIn.framework; sourceTree = "<group>"; };
+		C08270ED1B4D6A1800E343D4 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		C08270EF1B4D6A7600E343D4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C08270F11B4D6A7E00E343D4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C08270F31B4D6A8600E343D4 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +58,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08270F41B4D6A8600E343D4 /* AddressBook.framework in Frameworks */,
+				C08270F21B4D6A7E00E343D4 /* StoreKit.framework in Frameworks */,
+				C08270F01B4D6A7600E343D4 /* SystemConfiguration.framework in Frameworks */,
+				C08270EC1B4D69FF00E343D4 /* GoogleSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +78,12 @@
 		C08270B81B4D63A800E343D4 = {
 			isa = PBXGroup;
 			children = (
+				6E719E7E1DAFA289008BB233 /* GoogleService-Info.plist */,
+				C08270ED1B4D6A1800E343D4 /* GoogleSignIn.bundle */,
+				C08270EB1B4D69FF00E343D4 /* GoogleSignIn.framework */,
+				C08270F31B4D6A8600E343D4 /* AddressBook.framework */,
+				C08270F11B4D6A7E00E343D4 /* StoreKit.framework */,
+				C08270EF1B4D6A7600E343D4 /* SystemConfiguration.framework */,
 				C08270C31B4D63A800E343D4 /* GSignIn */,
 				C08270D91B4D63A800E343D4 /* GSignInTests */,
 				C08270C21B4D63A800E343D4 /* Products */,
@@ -79,7 +104,9 @@
 			children = (
 				C08270C61B4D63A800E343D4 /* AppDelegate.swift */,
 				C08270C81B4D63A800E343D4 /* ViewController.swift */,
+				C08270E61B4D641D00E343D4 /* ContentViewController.swift */,
 				C08270CA1B4D63A800E343D4 /* Main.storyboard */,
+				C08270E81B4D65CE00E343D4 /* GSignIn-Bridging-Header.h */,
 				C08270CD1B4D63A800E343D4 /* Images.xcassets */,
 				C08270CF1B4D63A800E343D4 /* LaunchScreen.xib */,
 				C08270C41B4D63A800E343D4 /* Supporting Files */,
@@ -161,9 +188,11 @@
 				TargetAttributes = {
 					C08270C01B4D63A800E343D4 = {
 						CreatedOnToolsVersion = 6.3;
+						LastSwiftMigration = 0800;
 					};
 					C08270D51B4D63A800E343D4 = {
 						CreatedOnToolsVersion = 6.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = C08270C01B4D63A800E343D4;
 					};
 				};
@@ -192,7 +221,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08270EE1B4D6A1800E343D4 /* GoogleSignIn.bundle in Resources */,
 				C08270CC1B4D63A800E343D4 /* Main.storyboard in Resources */,
+				6E719E7F1DAFA289008BB233 /* GoogleService-Info.plist in Resources */,
 				C08270D11B4D63A800E343D4 /* LaunchScreen.xib in Resources */,
 				C08270CE1B4D63A800E343D4 /* Images.xcassets in Resources */,
 			);
@@ -213,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C08270C91B4D63A800E343D4 /* ViewController.swift in Sources */,
+				C08270E71B4D641D00E343D4 /* ContentViewController.swift in Sources */,
 				C08270C71B4D63A800E343D4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,9 +372,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GSignIn",
+				);
 				INFOPLIST_FILE = GSignIn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.GSignIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GSignIn/GSignIn-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -350,9 +393,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GSignIn",
+				);
 				INFOPLIST_FILE = GSignIn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.GSignIn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GSignIn/GSignIn-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -371,6 +424,7 @@
 				INFOPLIST_FILE = GSignInTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSignIn.app/GSignIn";
 			};
 			name = Debug;
@@ -386,6 +440,7 @@
 				INFOPLIST_FILE = GSignInTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSignIn.app/GSignIn";
 			};
 			name = Release;
@@ -409,6 +464,7 @@
 				C08270E21B4D63A800E343D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C08270E31B4D63A800E343D4 /* Build configuration list for PBXNativeTarget "GSignInTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +473,7 @@
 				C08270E51B4D63A800E343D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
